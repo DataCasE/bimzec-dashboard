@@ -18,3 +18,4 @@ zipp==3.8.1
 pandas==1.5.0
 dash_bootstrap_components==1.2.1
 geopandas==0.11.1
+geojson==2.5.0
