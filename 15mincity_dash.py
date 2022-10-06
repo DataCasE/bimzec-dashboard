@@ -5,7 +5,6 @@ from dash import Dash, dcc, html, Input, Output, dash_table
 import plotly
 import plotly.express as px
 import dash_bootstrap_components as dbc
-import plotly.graph_objs as go
 import geopandas as gpd
 import json
 import os 
