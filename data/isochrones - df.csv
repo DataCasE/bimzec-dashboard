@@ -1,0 +1,61 @@
+id,value,title,amenity,mode,pace,color
+metro-foot-slow,675,metrostop by foot,metrostop,foot,slow,0.5
+bicycleshop-foot-slow,675,bicycleshop by foot,bicycleshop,foot,slow,0.5
+bowling-foot-slow,675,bowling by foot,bowling,foot,slow,0.5
+cinema-foot-slow,675,cinema by foot,cinema,foot,slow,0.5
+cityoffice-foot-slow,675,city office by foot,city office,foot,slow,0.5
+doctor-foot-slow,675,doctor by foot,doctor,foot,slow,0.5
+icecream-foot-slow,675,icecream by foot,icecream,foot,slow,0.5
+libraries-foot-slow,675,library by foot,library,foot,slow,0.5
+markets-foot-slow,675,market by foot,market,foot,slow,0.5
+park-foot-slow,675,park by foot,park,foot,slow,0.5
+playgrounds-foot-slow,675,playground by foot,playground,foot,slow,0.5
+schools-foot-slow,675,school by foot,school,foot,slow,0.5
+supermarket-foot-slow,675,supermarket by foot,supermarket,foot,slow,0.5
+swimming-foot-slow,675,swimmingpool by foot,swimmingpool,foot,slow,0.5
+tram-foot-slow,675,tramstop by foot,tramstop,foot,slow,0.5
+metro-foot,900,metrostop by foot,metrostop,foot,normal,1
+bicycleshop-foot,900,bicycleshop by foot,bicycleshop,foot,normal,1
+bowling-foot,900,bowling by foot,bowling,foot,normal,1
+cinema-foot,900,cinema by foot,cinema,foot,normal,1
+cityoffice-foot,900,city office by foot,city office,foot,normal,1
+doctor-foot,900,doctor by foot,doctor,foot,normal,1
+icecream-foot,900,icecream by foot,icecream,foot,normal,1
+libraries-foot,900,library by foot,library,foot,normal,1
+markets-foot,900,market by foot,market,foot,normal,1
+park-foot,900,park by foot,park,foot,normal,1
+playgrounds-foot,900,playground by foot,playground,foot,normal,1
+schools-foot,900,school by foot,school,foot,normal,1
+supermarket-foot,900,supermarket by foot,supermarket,foot,normal,1
+swimming-foot,900,swimmingpool by foot,swimmingpool,foot,normal,1
+tram-foot,900,tramstop by foot,tramstop,foot,normal,1
+metro-bike,720,metrostop by bike,metrostop,bike,normal,1
+bicycleshop-bike,720,bicycleshop by bike,bicycleshop,bike,normal,1
+bowling-bike,720,bowling by bike,bowling,bike,normal,1
+cinema-bike,720,cinema by bike,cinema,bike,normal,1
+cityoffice-bike,720,city office by bike,city office,bike,normal,1
+doctor-bike,720,doctor by bike,doctor,bike,normal,1
+icecream-bike,720,icecream by bike,icecream,bike,normal,1
+libraries-bike,720,library by bike,library,bike,normal,1
+markets-bike,720,market by bike,market,bike,normal,1
+park-bike,720,park by bike,park,bike,normal,1
+playgrounds-bike,720,playground by bike,playground,bike,normal,1
+schools-bike,720,school by bike,school,bike,normal,1
+supermarket-bike,720,supermarket by bike,supermarket,bike,normal,1
+swimming-bike,720,swimmingpool by bike,swimmingpool,bike,normal,1
+tram-bike,720,tramstop by bike,tramstop,bike,normal,1
+metro-bike-slow,540,metrostop by bike,metrostop,bike,slow,0.5
+bicycleshop-bike-slow,540,bicycleshop by bike,bicycleshop,bike,slow,0.5
+bowling-bike-slow,540,bowling by bike,bowling,bike,slow,0.5
+cinema-bike-slow,540,cinema by bike,cinema,bike,slow,0.5
+cityoffice-bike-slow,540,city office by bike,city office,bike,slow,0.5
+doctor-bike-slow,540,doctor by bike,doctor,bike,slow,0.5
+icecream-bike-slow,540,icecream by bike,icecream,bike,slow,0.5
+libraries-bike-slow,540,library by bike,library,bike,slow,0.5
+markets-bike-slow,540,market by bike,market,bike,slow,0.5
+park-bike-slow,540,park by bike,park,bike,slow,0.5
+playgrounds-bike-slow,540,playground by bike,playground,bike,slow,0.5
+schools-bike-slow,540,school by bike,school,bike,slow,0.5
+supermarket-bike-slow,540,supermarket by bike,supermarket,bike,slow,0.5
+swimming-bike-slow,540,swimmingpool by bike,swimmingpool,bike,slow,0.5
+tram-bike-slow,540,tramstop by bike,tramstop,bike,slow,0.5

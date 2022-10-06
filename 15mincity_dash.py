@@ -27,15 +27,15 @@ geo_iso = json.loads(geo_iso.to_json())
 
 # import amenity locations geojson files
 # import all geojson files from the folder "data" 
-locations = 'data/locations'
-location_files = glob.glob(os.path.join(locations, '*.geojson'))
+# locations = 'data/locations'
+# location_files = glob.glob(os.path.join(locations, '*.geojson'))
 
 # concatenate all geojson files into "geo"
-geo_loc = pd.concat((gpd.read_file(f) for f in location_files))
+# geo_loc = pd.concat((gpd.read_file(f) for f in location_files))
 
 # convert the coordinate values into the right type
-geo_loc.to_crs('WGS84', inplace=True)
-geo_loc = json.loads(geo_loc.to_json())
+# geo_loc.to_crs('WGS84', inplace=True)
+# geo_loc = json.loads(geo_loc.to_json())
 
 # import csv as "df"
 df = pd.read_csv('data/isochrones - df.csv')
