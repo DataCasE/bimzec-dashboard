@@ -1,1 +1,1 @@
-web: gunicorn isochrones-dash:server
+web: gunicorn 15mincity_dash:server
