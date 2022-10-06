@@ -14,28 +14,8 @@ import geojson
 mapbox_token =("pk.eyJ1IjoiY2FzcGFyLWVnYXMiLCJhIjoiY2poc3QwazFkMDNiaTNxbG1vMmJvZmVwcCJ9.Yy65IKfEEM015SvKt8OBqw")
 
 # import isochrones geojson files
-# import all geojson files from the folder "data" 
-isochrones = 'data/isochrones'
-isochrone_files = glob.glob(os.path.join(isochrones, '*.geojson'))
-
-# concatenate all geojson files into "geo"
-geo_iso = pd.concat((gpd.read_file(f) for f in isochrone_files))
-
-# convert the coordinate values into the right type
-geo_iso.to_crs('WGS84', inplace=True)
-geo_iso = json.loads(geo_iso.to_json())
-
-# import amenity locations geojson files
-# import all geojson files from the folder "data" 
-# locations = 'data/locations'
-# location_files = glob.glob(os.path.join(locations, '*.geojson'))
-
-# concatenate all geojson files into "geo"
-# geo_loc = pd.concat((gpd.read_file(f) for f in location_files))
-
-# convert the coordinate values into the right type
-# geo_loc.to_crs('WGS84', inplace=True)
-# geo_loc = json.loads(geo_loc.to_json())
+with open('data/all_isochrones.json') as json_data:
+     geo_iso = json.load(json_data)
 
 # import csv as "df"
 df = pd.read_csv('data/isochrones - df.csv')
