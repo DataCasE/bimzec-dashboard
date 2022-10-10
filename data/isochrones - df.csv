@@ -29,21 +29,6 @@ schools-foot,900,school by foot,school,foot,normal,1
 supermarket-foot,900,supermarket by foot,supermarket,foot,normal,1
 swimming-foot,900,swimmingpool by foot,swimmingpool,foot,normal,1
 tram-foot,900,tramstop by foot,tramstop,foot,normal,1
-metro-bike,720,metrostop by bike,metrostop,bike,normal,1
-bicycleshop-bike,720,bicycleshop by bike,bicycleshop,bike,normal,1
-bowling-bike,720,bowling by bike,bowling,bike,normal,1
-cinema-bike,720,cinema by bike,cinema,bike,normal,1
-cityoffice-bike,720,city office by bike,city office,bike,normal,1
-doctor-bike,720,doctor by bike,doctor,bike,normal,1
-icecream-bike,720,icecream by bike,icecream,bike,normal,1
-libraries-bike,720,library by bike,library,bike,normal,1
-markets-bike,720,market by bike,market,bike,normal,1
-park-bike,720,park by bike,park,bike,normal,1
-playgrounds-bike,720,playground by bike,playground,bike,normal,1
-schools-bike,720,school by bike,school,bike,normal,1
-supermarket-bike,720,supermarket by bike,supermarket,bike,normal,1
-swimming-bike,720,swimmingpool by bike,swimmingpool,bike,normal,1
-tram-bike,720,tramstop by bike,tramstop,bike,normal,1
 metro-bike-slow,540,metrostop by bike,metrostop,bike,slow,0.5
 bicycleshop-bike-slow,540,bicycleshop by bike,bicycleshop,bike,slow,0.5
 bowling-bike-slow,540,bowling by bike,bowling,bike,slow,0.5
@@ -59,3 +44,18 @@ schools-bike-slow,540,school by bike,school,bike,slow,0.5
 supermarket-bike-slow,540,supermarket by bike,supermarket,bike,slow,0.5
 swimming-bike-slow,540,swimmingpool by bike,swimmingpool,bike,slow,0.5
 tram-bike-slow,540,tramstop by bike,tramstop,bike,slow,0.5
+metro-bike,720,metrostop by bike,metrostop,bike,normal,1
+bicycleshop-bike,720,bicycleshop by bike,bicycleshop,bike,normal,1
+bowling-bike,720,bowling by bike,bowling,bike,normal,1
+cinema-bike,720,cinema by bike,cinema,bike,normal,1
+cityoffice-bike,720,city office by bike,city office,bike,normal,1
+doctor-bike,720,doctor by bike,doctor,bike,normal,1
+icecream-bike,720,icecream by bike,icecream,bike,normal,1
+libraries-bike,720,library by bike,library,bike,normal,1
+markets-bike,720,market by bike,market,bike,normal,1
+park-bike,720,park by bike,park,bike,normal,1
+playgrounds-bike,720,playground by bike,playground,bike,normal,1
+schools-bike,720,school by bike,school,bike,normal,1
+supermarket-bike,720,supermarket by bike,supermarket,bike,normal,1
+swimming-bike,720,swimmingpool by bike,swimmingpool,bike,normal,1
+tram-bike,720,tramstop by bike,tramstop,bike,normal,1
