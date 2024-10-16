@@ -1,1 +1,1 @@
-web: gunicorn 15mincity_dash:server
+web: gunicorn BIMZEC_dashboard:server

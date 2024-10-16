@@ -1,0 +1,91 @@
+result_name,value,unit,area,scenario
+co2,189754.0,tons,whole model,scenario 1
+NOX,721317438.2095733,g,whole model,scenario 1
+PM2.5,2304474.224374792,g,whole model,scenario 1
+PM10,4608948.448749584,g,whole model,scenario 1
+logistic movements,48469336.0,km,whole model,scenario 1
+co2,74594.308104,tons,MRA,scenario 1
+NOX,276759908.56,g,MRA,scenario 1
+PM2.5,874871.5148,g,MRA,scenario 1
+PM10,1749743.0296,g,MRA,scenario 1
+logistic movements,48469336.0,km,MRA,scenario 1
+co2,1845.007065,tons,zuid-oost,scenario 1
+NOX,6845347.85,g,zuid-oost,scenario 1
+PM2.5,21638.97175,g,zuid-oost,scenario 1
+PM10,43277.9435,g,zuid-oost,scenario 1
+logistic movements,1198835.0,km,zuid-oost,scenario 1
+co2,100938.0,tons,whole model,scenario 2
+NOX,895149855.635016,g,whole model,scenario 2
+PM2.5,17686618.955142565,g,whole model,scenario 2
+PM10,35373237.91028513,g,whole model,scenario 2
+logistic movements,13090660.0,km,whole model,scenario 2
+co2,20146.52574,tons,MRA,scenario 2
+NOX,74747668.6,g,MRA,scenario 2
+PM2.5,236286.413,g,MRA,scenario 2
+PM10,472572.826,g,MRA,scenario 2
+logistic movements,13090660.0,km,MRA,scenario 2
+co2,655.800219,tons,zuid-oost,scenario 2
+NOX,2433150.91,g,zuid-oost,scenario 2
+PM2.5,7691.48405,g,zuid-oost,scenario 2
+PM10,15382.9681,g,zuid-oost,scenario 2
+logistic movements,426121.0,km,zuid-oost,scenario 2
+co2,99220.0,tons,whole model,scenario 3
+NOX,888398424.3017154,g,whole model,scenario 3
+PM2.5,17688371.820589103,g,whole model,scenario 3
+PM10,35376743.641178206,g,whole model,scenario 3
+logistic movements,13139106.0,km,whole model,scenario 3
+co2,20221.084134,tons,MRA,scenario 3
+NOX,75024295.26,g,MRA,scenario 3
+PM2.5,237160.8633,g,MRA,scenario 3
+PM10,474321.7266,g,MRA,scenario 3
+logistic movements,13139106.0,km,MRA,scenario 3
+co2,655.800219,tons,zuid-oost,scenario 3
+NOX,2433150.91,g,zuid-oost,scenario 3
+PM2.5,7691.48405,g,zuid-oost,scenario 3
+PM10,15382.9681,g,zuid-oost,scenario 3
+logistic movements,426121.0,km,zuid-oost,scenario 3
+co2,240120.0,tons,whole model,scenario 4
+NOX,1349478306.8351705,g,whole model,scenario 4
+PM2.5,17422001.979539976,g,whole model,scenario 4
+PM10,34844003.95907995,g,whole model,scenario 4
+logistic movements,10644304.0,km,whole model,scenario 4
+co2,16381.583856,tons,MRA,scenario 4
+NOX,60778975.84,g,MRA,scenario 4
+PM2.5,192129.6872,g,MRA,scenario 4
+PM10,384259.3744,g,MRA,scenario 4
+logistic movements,10644304.0,km,MRA,scenario 4
+co2,242.51562,tons,zuid-oost,scenario 4
+NOX,899781.8,g,zuid-oost,scenario 4
+PM2.5,2844.319,g,zuid-oost,scenario 4
+PM10,5688.638,g,zuid-oost,scenario 4
+logistic movements,157580.0,km,zuid-oost,scenario 4
+co2,52295.0,tons,whole model,scenario 5
+NOX,272430852.4491627,g,whole model,scenario 5
+PM2.5,3184748.574240229,g,whole model,scenario 5
+PM10,6369497.148480458,g,whole model,scenario 5
+logistic movements,6035359.0,km,whole model,scenario 5
+co2,9288.417501,tons,MRA,scenario 5
+NOX,34461899.89,g,MRA,scenario 5
+PM2.5,108938.22995,g,MRA,scenario 5
+PM10,217876.4599,g,MRA,scenario 5
+logistic movements,6035359.0,km,MRA,scenario 5
+co2,138.733155,tons,zuid-oost,scenario 5
+NOX,514727.95,g,zuid-oost,scenario 5
+PM2.5,1627.11725,g,zuid-oost,scenario 5
+PM10,3254.2345,g,zuid-oost,scenario 5
+logistic movements,90145.0,km,zuid-oost,scenario 5
+co2,16560.0,tons,whole model,scenario 6
+NOX,74802232.08986068,g,whole model,scenario 6
+PM2.5,782581.5287589508,g,whole model,scenario 6
+PM10,1565163.0575179015,g,whole model,scenario 6
+logistic movements,10421906.0,km,whole model,scenario 6
+co2,16039.313334,tons,MRA,scenario 6
+NOX,59509083.26,g,MRA,scenario 6
+PM2.5,188115.4033,g,MRA,scenario 6
+PM10,376230.8066,g,MRA,scenario 6
+logistic movements,10421906.0,km,MRA,scenario 6
+co2,530.990397,tons,zuid-oost,scenario 6
+NOX,1970081.33,g,zuid-oost,scenario 6
+PM2.5,6227.66515,g,zuid-oost,scenario 6
+PM10,12455.3303,g,zuid-oost,scenario 6
+logistic movements,345023.0,km,zuid-oost,scenario 6
