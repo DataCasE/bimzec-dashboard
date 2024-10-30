@@ -34,12 +34,12 @@ def load_dataset(file_path):
 
 # Define a function to process and extract lat/lon for each scenario
 def process_scenario(scenario_prefix):
-    roads = load_dataset(f"zip://data/latest_data/{scenario_prefix}/{scenario_prefix}_roads.zip")
-    hubs = load_dataset(f"zip://data/latest_data/{scenario_prefix}/{scenario_prefix}_hubs.zip")
-    suppliers = load_dataset(f"zip://data/latest_data/{scenario_prefix}/{scenario_prefix}_suppliers.zip")
-    construction = load_dataset(f"zip://data/latest_data/{scenario_prefix}/{scenario_prefix}_construction.zip")
-    demolition = load_dataset(f"zip://data/latest_data/{scenario_prefix}/{scenario_prefix}_demolition.zip")
-    water = load_dataset(f"zip://data/latest_data/{scenario_prefix}/{scenario_prefix}_water.zip")
+    roads = load_dataset(f"zip://home/bimzec/bimzec-dashboard/data/latest_data/{scenario_prefix}/{scenario_prefix}_roads.zip")
+    hubs = load_dataset(f"zip://home/bimzec/bimzec-dashboard/data/latest_data/{scenario_prefix}/{scenario_prefix}_hubs.zip")
+    suppliers = load_dataset(f"zip://home/bimzec/bimzec-dashboard/data/latest_data/{scenario_prefix}/{scenario_prefix}_suppliers.zip")
+    construction = load_dataset(f"zip://home/bimzec/bimzec-dashboard/data/latest_data/{scenario_prefix}/{scenario_prefix}_construction.zip")
+    demolition = load_dataset(f"zip://home/bimzec/bimzec-dashboard/data/latest_data/{scenario_prefix}/{scenario_prefix}_demolition.zip")
+    water = load_dataset(f"zip://home/bimzec/bimzec-dashboard/data/latest_data/{scenario_prefix}/{scenario_prefix}_water.zip")
 
     if hubs is not None:
         hubs['lon'] = hubs.geometry.x
