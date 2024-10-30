@@ -215,7 +215,7 @@ flowmap6_layout = html.Div(style={'backgroundColor': 'white', 'fontFamily': 'Hel
 # Donut charts with material data for 6 scenarios
 # more elaborate way to prepare data for each tab
 
-donut_data = pd.read_csv("data/scenario_data/donut_data.csv",sep=',')
+donut_data = pd.read_csv("/home/bimzec/bimzec-dashboard/data/scenario_data/donut_data.csv",sep=',')
 donut_data1 = donut_data[donut_data['scenario']=='scenario 1']
 donut_data2 = donut_data[donut_data['scenario']=='scenario 2']
 donut_data3 = donut_data[donut_data['scenario']=='scenario 3']
