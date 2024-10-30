@@ -367,7 +367,7 @@ donut6_layout = html.Div(style={'backgroundColor': 'white', 'fontFamily': 'Helve
 # Stacked bars with emissions for 6 scenarios
 # more elaborate way to prepare data for each tab
 
-stack_data = pd.read_csv("data/scenario_data/stack_data.csv",sep=',')
+stack_data = pd.read_csv("/home/bimzec/bimzec-dashboard/data/scenario_data/stack_data.csv",sep=',')
 stack_data1 = stack_data[stack_data['scenario']=='s1']
 stack_data2 = stack_data[stack_data['scenario']=='s2']
 stack_data3 = stack_data[stack_data['scenario']=='s3']
@@ -513,7 +513,7 @@ stack6_layout = html.Div(style={'backgroundColor': 'white', 'fontFamily': 'Helve
 # Linechart with NOX data for 6 scenarios
 # more elaborate way to prepare data for each tab
 
-nox_data = pd.read_csv("data/scenario_data/line_data.csv",sep=',')
+nox_data = pd.read_csv("/home/bimzec/bimzec-dashboard/data/scenario_data/line_data.csv",sep=',')
 
 # Rename the columns
 nox_data = nox_data.rename(columns={
@@ -656,7 +656,7 @@ nox6_layout = html.Div(style={'backgroundColor': 'white', 'fontFamily': 'Helveti
 # Linecharts with PM data for 6 scenarios
 # more elaborate way to prepare data for each tab
 
-pm_data = pd.read_csv("data/scenario_data/line_data.csv",sep=',')
+pm_data = pd.read_csv("/home/bimzec/bimzec-dashboard/data/scenario_data/line_data.csv",sep=',')
 
 # Rename the columns
 pm_data = pm_data.rename(columns={
@@ -808,7 +808,7 @@ pm6_layout = html.Div(style={'backgroundColor': 'white', 'fontFamily': 'Helvetic
 # more elaborate way to prepare data for each tab
 
 
-mat_data = pd.read_csv("data/scenario_data/treemap_mat_data.csv",sep=',')
+mat_data = pd.read_csv("/home/bimzec/bimzec-dashboard/data/scenario_data/treemap_mat_data.csv",sep=',')
 
 mat_data1 = mat_data[mat_data['scenario']=='scenario 1']
 mat_data2 = mat_data[mat_data['scenario']=='scenario 2']
@@ -961,7 +961,7 @@ mat6_layout = html.Div(style={'backgroundColor': 'white', 'fontFamily': 'Helveti
 # Treemaps with circularity data for 6 scenarios
 # more elaborate way to prepare data for each tab
 
-circ_data = pd.read_csv("data/scenario_data/treemap_circ_data.csv",sep=',')
+circ_data = pd.read_csv("/home/bimzec/bimzec-dashboard/data/scenario_data/treemap_circ_data.csv",sep=',')
 
 circ_data1 = circ_data[circ_data['scenario']=='scenario 1']
 circ_data2 = circ_data[circ_data['scenario']=='scenario 2']
@@ -1126,7 +1126,7 @@ circ6_layout = html.Div(style={'backgroundColor': 'white', 'fontFamily': 'Helvet
 # Initialize Dash app
 app = Dash(__name__)
 
-result_data = pd.read_csv("data/scenario_data/result_data.csv",sep=',')
+result_data = pd.read_csv("/home/bimzec/bimzec-dashboard/data/scenario_data/result_data.csv",sep=',')
 co2_w = result_data[(result_data['result_name'] == 'co2') & (result_data['area'] == 'whole model')]
 co2_m = result_data[(result_data['result_name'] == 'co2') & (result_data['area'] == 'MRA')]
 co2_z = result_data[(result_data['result_name'] == 'co2') & (result_data['area'] == 'zuid-oost')]
